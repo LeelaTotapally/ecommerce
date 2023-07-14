@@ -1,0 +1,37 @@
+.priceNameMain{
+
+    margin-top: 10px;
+
+   
+}
+.brandNameMain{
+    margin-bottom: 10px; 
+}
+
+.proddiv{
+    margin-top: 30px;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 2rem; 
+   
+
+
+   
+}
+ .prod {
+
+   float: left;
+  padding: 1rem; 
+  }
+
+  .prod {
+    /* Set initial transition properties */
+    transition: transform 0.10s ease;
+  
+  }
+  
+  .prod:hover {
+    /* Apply the zoom effect */
+    transform: scale(1.2);
+  }

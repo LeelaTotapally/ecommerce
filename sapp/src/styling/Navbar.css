@@ -1,0 +1,98 @@
+/* Navbar.css */
+
+
+  
+  
+  .nav {
+    background-color: peachpuff;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navigation {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    margin-right: 10px;
+  }
+  
+  .Logo,
+  .Furniture,
+  .Electronics {
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+ 
+    list-style: none;
+    padding: 18px;
+    margin: 0;
+    display: none;
+    background-color: peachpuff;
+
+  }
+  
+  .Furniture:hover .submenu {
+    display: block;
+  }
+
+  .Electronics:hover .submenu {
+    display: block;
+  }
+
+  
+  .submenu li {
+    padding: 5px;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-actions {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .user-actions li {
+    margin-right: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+   background-color: #FFA700;
+  }
+
+  
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  

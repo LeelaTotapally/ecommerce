@@ -1,0 +1,125 @@
+.sidenav{
+   /* margin-top: 100px;   */
+
+   padding: 12px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  font-size: large; 
+  right: 20px;  
+  /* flex-direction: column;  */
+
+  height: 780px;
+  border: 0.0001px solid black;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 50px;
+   width:200px;  
+  background-color:  lightgray; 
+}
+a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.vertical {
+   align-items: left; 
+  list-style: none;
+  margin-right: 100px;
+}
+.vertical li {
+
+  margin-bottom: 10px;
+ 
+  
+         margin-left: auto;
+        margin-right: auto; 
+  
+}
+.color,
+.price,
+.brand {
+  width: 300%;
+  padding: 1px;
+  cursor: pointer;
+  border-bottom: 0.2px solid black;
+  width: 100%; 
+  align-items: left;
+  position: relative;
+  left: 0; 
+
+}
+.sub {
+  position: relative;
+  top: 100%;
+  left: 0;
+  right:100%;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  background-color: orange;
+
+}
+.brand:hover .sub{
+  display: block;
+}
+
+.sub li {
+  padding: 5px;
+}
+
+/* Navbar.css */
+
+
+  
+  
+/* 
+
+
+
+
+
+
+
+
+
+
+.Furniture:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  padding: 5px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.user-actions li {
+  margin-right: 10px;
+}
+
+
+
+a:hover {
+ background-color: #FFA700;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+ */
