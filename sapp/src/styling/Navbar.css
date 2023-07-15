@@ -29,13 +29,26 @@
     margin-right: 10px;
   }
   
-  .Logo,
+  .Logo{
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    padding-right: 70px;
+
+  }
   .Furniture,
-  .Electronics {
+  .Electronics{
     position: relative;
     padding: 5px;
     cursor: pointer;
   }
+  .profile{
+    position: relative;
+    padding-right: 95px;
+    cursor: pointer;
+  }
+
+
   
   .submenu {
     position: absolute;
@@ -56,6 +69,10 @@
 
   .Electronics:hover .submenu {
     display: block;
+  }
+  .profile:hover .submenu {
+    display: block;
+    align-items: center;
   }
 
   

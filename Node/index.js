@@ -27,6 +27,7 @@ mongoose.connection.on('connected', () => {
     productName: String,
     color:String,
     price: Number,
+    image: String,
 
   };
   const elec = mongoose.model("electronics", electonicSchema);
@@ -38,6 +39,7 @@ mongoose.connection.on('connected', () => {
      
       color: req.body.color,
       price: req.body.price,
+      image: req.body.image
     })
     await record.save()
     res.send(record)
@@ -91,6 +93,15 @@ mongoose.connection.on('connected', () => {
       res.status(500).send("Internal Server Error");
     }
   });
+
+
+ 
+
+
+
+
+  
+
   
   
 

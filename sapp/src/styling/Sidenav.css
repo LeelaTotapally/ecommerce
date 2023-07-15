@@ -1,5 +1,5 @@
 .sidenav{
-   /* margin-top: 100px;   */
+    /* margin-top: 1000px   ; */
 
    padding: 12px; 
   display: flex;
@@ -42,7 +42,7 @@ a {
   width: 300%;
   padding: 1px;
   cursor: pointer;
-  border-bottom: 0.2px solid black;
+
   width: 100%; 
   align-items: left;
   position: relative;
@@ -59,67 +59,18 @@ a {
   padding: 0;
   margin: 0;
   display: none;
-  background-color: orange;
+
 
 }
-.brand:hover .sub{
+.brand .sub{
+ 
   display: block;
 }
 
 .sub li {
-  padding: 5px;
+  border-top: 1px solid black;
+}
+.heading{
+  border-bottom: 0.2px solid black;
 }
 
-/* Navbar.css */
-
-
-  
-  
-/* 
-
-
-
-
-
-
-
-
-
-
-.Furniture:hover .submenu {
-  display: block;
-}
-
-.submenu li {
-  padding: 5px;
-}
-
-.right {
-  display: flex;
-  align-items: center;
-}
-
-.user-actions {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-.user-actions li {
-  margin-right: 10px;
-}
-
-
-
-a:hover {
- background-color: #FFA700;
-}
-
-
-body{
-  margin: 0;
-  padding: 0;
-}
- */
